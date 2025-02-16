@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Chiffre Caché</title>
+    <link rel="stylesheet" href="prettify.css"> 
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Jeu du Chiffre Caché</h1>
+        <p>Choisissez un niveau de difficulté :</p>
+        <select id="difficulty">
+            <option value="facile">Facile</option>
+            <option value="intermediaire">Intermédiaire</option>
+            <option value="difficile">Difficile</option>
+        </select>
+        <button onclick="begin()">Commencer</button>
+        <p id="message"></p>
+        <input type="number" id="guessInput" placeholder="Entrez un nombre" disabled>
+        <button onclick="checkGuess()" id="guessBtn" disabled>Vérifier</button>
+        <button onclick="resetGame()" id="resetBtn" style="display:none;">Rejouer</button>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
