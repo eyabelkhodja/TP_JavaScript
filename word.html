@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word Simulator</title>
+    <link rel="stylesheet" href="prettifier.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mini Word Simulator</h1>
+        <p>Saisissez votre texte dans la zone dédiée ci-dessous :</p>
+
+        <input type="color" id="colorPicker">
+        <input type="number" id="fontSize" placeholder="Taille de la police" min="8" max="100" enabled>
+
+        <select id="font">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+        </select>
+
+        <div id="texte" class="textBox" contenteditable="true">--- Écrivez votre texte ici ---</div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
+

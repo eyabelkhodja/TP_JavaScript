@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1973a493;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.648);
+    text-align: center;
+    width: 700px; 
+}
+
+/* Text box styling */
+.textBox {
+    width: 100%;  
+    min-height: 300px; /* Start small, but expand */
+    border: 2px solid #0c012b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: #cceaf048;
+    overflow: hidden; /* Prevent scrollbar */
+    resize: none; /* Disable manual resizing */
+    word-wrap: break-word; /* Ensure text wraps */
+}
+
+
+input, select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#colorPicker {
+    margin-top: 15px;
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #03303d; 
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+
